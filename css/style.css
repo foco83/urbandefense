@@ -1,25 +1,6 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
-
-header{
-  height: 70px;
-  border-bottom: solid black 1px;
-}
-
-
-header h1{
-  text-align: center;
-  padding-top: 10px;
+.brand-logo{
   font-family: 'Questrial', sans-serif;
-  font-size: 40px;
-}
-
-nav{
-  height: 50px;
-  text-align: center;
-  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .nav_ul_li{
@@ -29,10 +10,20 @@ nav{
   font-size: 20px;
 }
 
+.img{
+  margin-top: 212px;
+}
 
-footer{
+.carousel.carousel-slider {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+  }
+
+#article_link_meetup{
+  margin-top: 45px;
+  margin-left: 45px;
   height: 200px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+  width: 200px;
 }
